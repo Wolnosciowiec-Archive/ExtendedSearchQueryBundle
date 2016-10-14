@@ -1,0 +1,8 @@
+services:
+    #
+    # Search engine
+    #
+    extended_search_query.search_engine:
+        class: ExtendedSearchQueryBundle\Service\SearchEngine
+        calls:
+            - [setDispatcher, ["@event_dispatcher"]]
