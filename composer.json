@@ -1,0 +1,21 @@
+{
+  "name":        "wolnosciowiec/extended-search-query-bundle",
+  "description": "Provides simple a portal-like search engine",
+  "license":     "LGPLv3",
+  "type":        "library",
+
+  "require": {
+    "php": ">=7.0"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "~6.0",
+    "symfony/var-dumper": "*"
+  },
+
+  "autoload": {
+    "psr-4": {
+        "Wolnosciowiec\\ExtendedSearchQueryBundle\\": ""
+    }
+  }
+}
