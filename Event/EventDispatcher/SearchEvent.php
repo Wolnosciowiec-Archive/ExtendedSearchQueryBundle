@@ -10,8 +10,6 @@ use Symfony\Component\EventDispatcher\GenericEvent;
  * ============
  *   Used to collect information
  *   about search data providers
- *
- * @package Wolnosciowiec\AppBundle\Event\EventDispatcher
  */
 class SearchEvent extends GenericEvent
 {

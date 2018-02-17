@@ -9,8 +9,6 @@ use Symfony\Component\Config\FileLocator;
 
 /**
  * Injects configuration from this bundle
- *
- * @package AdminBundle\DependencyInjection
  */
 class ExtendedSearchQueryExtension extends Extension
 {

@@ -1,11 +1,9 @@
 <?php
+
 namespace ExtendedSearchQueryBundle\Service;
 
 /**
- * ExtendedSearchQuery
- * ===================
- *
- * @package ExtendedSearchQueryBundle\Service
+ * A search query form
  */
 class ExtendedSearchQuery
 {

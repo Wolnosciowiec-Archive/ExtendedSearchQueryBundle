@@ -15,8 +15,6 @@ use Symfony\Component\EventDispatcher\EventDispatcherInterface;
  * =============
  *   - Call all data providers
  *   - Put them into a result set with a pagination
- *
- * @package Service
  */
 class SearchEngine
 {
@@ -36,10 +34,8 @@ class SearchEngine
     /**
      * Get registered data providers for the Search Engine
      * ===================================================
-     *   Data providers should attach to the AppBundleEvents::SEARCH_QUERY_EVENT
+     *   Data providers should attach to the event
      *   and use $event->getCollection()->putProvider() to register self
-     *
-     * @see AppBundleEvents::SEARCH_QUERY_EVENT
      *
      * @throws SearchEngineException
      * @return SearchEngineDataProviderInterface[]

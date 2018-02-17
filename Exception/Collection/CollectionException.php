@@ -6,8 +6,6 @@ namespace ExtendedSearchQueryBundle\Exception\Collection;
  * CollectionException
  * ===================
  *   Occurs in object collections
- *
- * @package Wolnosciowiec\AppBundle\Exception\Collection
  */
 class CollectionException extends \LogicException
 {

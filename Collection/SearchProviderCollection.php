@@ -9,8 +9,6 @@ use ExtendedSearchQueryBundle\Model\Service\DataProvider\SearchEngineSource\Sear
  * Search Provider Collection
  * ==========================
  *   List of search engine result providers
- *
- * @package ExtendedSearchQueryBundle\Collection
  */
 class SearchProviderCollection
 {
@@ -22,7 +20,7 @@ class SearchProviderCollection
     /**
      * @param SearchEngineDataProviderInterface $provider
      *
-*@return $this
+     * @return $this
      */
     public function putProvider(SearchEngineDataProviderInterface $provider)
     {

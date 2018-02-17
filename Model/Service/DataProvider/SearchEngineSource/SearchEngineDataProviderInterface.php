@@ -10,8 +10,6 @@ use ExtendedSearchQueryBundle\Service\ExtendedSearchQuery;
  * ==============================
  *   Every search source should implement this interface
  *   and return results in SearchResultInterface[]
- *
- * @package Wolnosciowiec\AppBundle\Model\Service\DataProvider\SearchEngineSource
  */
 interface SearchEngineDataProviderInterface
 {

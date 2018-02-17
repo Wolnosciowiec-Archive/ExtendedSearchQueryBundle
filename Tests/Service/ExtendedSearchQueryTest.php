@@ -2,7 +2,6 @@
 
 namespace ExtendedSearchQueryBundle\Tests\Service;
 
-use Wolnosciowiec\AppBundle\Tests\ContainerAwareTestCase;
 use ExtendedSearchQueryBundle\Service\ExtendedSearchQuery;
 
 /**
@@ -10,7 +9,6 @@ use ExtendedSearchQueryBundle\Service\ExtendedSearchQuery;
  * =======================
  *
  * @see ExtendedSearchQuery
- * @package ExtendedSearchQueryBundle\Tests\Service
  */
 class ExtendedSearchQueryTest extends ContainerAwareTestCase
 {

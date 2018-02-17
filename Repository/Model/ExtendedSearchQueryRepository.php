@@ -11,8 +11,6 @@ use ExtendedSearchQueryBundle\Service\ExtendedSearchQuery;
  * Repository extension that integrates repositories with
  * ExtendedSearchQuery parser, which allows to search elements by keywords
  * included keywords and excluded keywords
- *
- * @package ExtendedSearchQueryBundle\Repository\Model
  */
 trait ExtendedSearchQueryRepository
 {

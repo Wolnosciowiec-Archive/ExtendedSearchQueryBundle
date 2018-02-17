@@ -4,8 +4,6 @@ namespace ExtendedSearchQueryBundle;
 
 /**
  * Bundle events
- *
- * @package ExtendedSearchQueryBundle
  */
 final class ExtendedSearchQueryEvents
 {
