@@ -1,7 +1,7 @@
 {
   "name":        "wolnosciowiec/extended-search-query-bundle",
   "description": "Provides simple a portal-like search engine",
-  "license":     "LGPLv3",
+  "license":     "LGPL-3.0-or-later",
   "type":        "library",
 
   "require": {
